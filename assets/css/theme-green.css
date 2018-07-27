@@ -469,7 +469,11 @@ a:hover, a:focus, a:active { color: #be52f1; }
 .circle-animation .ca { border-color: rgba(34, 59, 85, 0.15); }
 .circle-animation .ca-color-1 { background: #86cfff; }
 .circle-animation .ca-color-2 { background: #859fff; }
-.circle-animation .ca-color-3 { background: #a7d97a; }
+.circle-animation .ca-color-3 { background: #17242E; }
+.circle-animation .ca-color-4 { background: #a7d97a; }
+.circle-animation .ca-color-5 { background: #89CC4E; }
+.circle-animation .ca-color-6 { background: #6CBF22; }
+.circle-animation .ca-color-7 { background: #366011; }
 
 .heading-sm-s2 { color: #6cbf22; }
 .heading-sm-s2:before { background: #6cbf22; }
@@ -528,7 +532,7 @@ a:hover, a:focus, a:active { color: #be52f1; }
 .timeline-item:before, .timeline-item:after { background: #6cbf22; }
 .timeline-date { color: #6a7894; }
 .timeline-date:after { background: #6cbf22; }
-.timeline-date:before { background: rgba(167, 34, 244, 0.23); }
+.timeline-date:before { background: rgba(109, 244, 93, 0.23); }
 .timeline-title { color: #6cbf22; }
 .timeline-title:before { border-right-color: rgba(186, 188, 195, 0.3); }
 .timeline-info li { color: #707d98; }

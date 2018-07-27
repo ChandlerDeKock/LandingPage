@@ -423,7 +423,7 @@
 			dotsContainer:slider_n,
 			margin:30,
 			loop:true,
-			autoplayTimeout:3000,
+			autoplayTimeout:10000,
 			rtl: c_rtl_s,
 			autoplay:true,
 			animateOut:'fadeOut',
