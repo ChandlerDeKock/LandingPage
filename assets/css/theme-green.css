@@ -454,12 +454,12 @@ a:hover, a:focus, a:active { color: #be52f1; }
 .io-jasmine .team-circle-social li a:hover { color: #6cbf22; }
 .io-jasmine .site-header .navbar-nav > li > a { color: #223b55; }
 .io-jasmine .site-header .navbar-nav > li > a:hover, .io-jasmine .site-header .navbar-nav > li > a.active { color: #6cbf22; }
-.io-jasmine .site-header.has-fixed .navbar { background: #d1ddec; }
+.io-jasmine .site-header.has-fixed .navbar { background: ##17242E; }
 .io-jasmine .lang-switch a { color: #223b55; }
 .io-jasmine .lang-switch a:hover { color: #6cbf22; background-color: transparent; }
 .io-jasmine .loader-section { background: #e7edf5; }
 
-@media only screen and (max-width: 991px) { .io-jasmine .site-header .navbar.is-transparent.active { background: #d1ddec; } }
+@media only screen and (max-width: 991px) { .io-jasmine .site-header .navbar.is-transparent.active { background: ##17242E; } }
 .background-shape { background: rgba(0, 52, 86, 0.03); }
 .background-shape:before, .background-shape:after { background: rgba(255, 255, 255, 0.2); }
 
