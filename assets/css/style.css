@@ -747,7 +747,7 @@ select:focus { outline: none; border: none; }
 .site-header .scroll-down { color: #fff; font-size: 10px; display: inline-block; text-transform: uppercase; position: absolute; bottom: 120px; right: 20px; transform: rotate(-90deg); z-index: 5; }
 .site-header .scroll-down:after { position: absolute; content: ""; height: 1px; width: 40px; background: #fff; left: -52px; top: 50%; animation: upDown2 2s infinite; }
 
-@keyframes upDown2 { 0%, 20%, 50%, 80%, 
+@keyframes upDown2 { 0%, 20%, 50%, 80%,
 	100% { transform: translateX(0); }
   40% { transform: translateX(4px); }
   60% { transform: translateX(6px); } }
@@ -2439,9 +2439,9 @@ select:focus { outline: none; border: none; }
 .circle-animation { position: absolute; height: 700px; width: 700px; top: -110px; left: 50%; transform: translateX(-50%); }
 .circle-animation .ca { position: absolute; border-radius: 50%; top: 50%; left: 50%; transform: translate(-50%, -50%); border: 2px solid rgba(34, 59, 85, 0.15); }
 .circle-animation .ca-dot { position: absolute; height: 12px; width: 12px; border-radius: 50%; }
-.circle-animation .ca-color-1 { background: #86cfff; }
-.circle-animation .ca-color-2 { background: #859fff; }
-.circle-animation .ca-color-3 { background: #93a6ba; }
+.circle-animation .ca-color-1 { background: #6CBF22; }
+.circle-animation .ca-color-2 { background: #17242E; }
+.circle-animation .ca-color-3 { background: #FECB17; }
 .circle-animation-l1 { height: 100%; width: 100%; animation: rotatecw 78s linear infinite 0s; }
 .circle-animation-l1-d1 { left: 23%; top: 6.35%; }
 .circle-animation-l1-d2 { right: 23%; top: 6.35%; }

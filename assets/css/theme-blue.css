@@ -467,9 +467,9 @@ a:hover, a:focus, a:active { color: #be52f1; }
 .banner-jasmine .token-countdown .countdown-text { color: #715cff; }
 
 .circle-animation .ca { border-color: rgba(34, 59, 85, 0.15); }
-.circle-animation .ca-color-1 { background: #86cfff; }
-.circle-animation .ca-color-2 { background: #859fff; }
-.circle-animation .ca-color-3 { background: #93a6ba; }
+.circle-animation .ca-color-1 { background: #6CBF22; }
+.circle-animation .ca-color-2 { background: #17242E; }
+.circle-animation .ca-color-3 { background: #FECB17; }
 
 .heading-sm-s2 { color: #715cff; }
 .heading-sm-s2:before { background: #715cff; }
