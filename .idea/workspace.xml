@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecf48f66-4b36-49f8-ac61-90dbea4e8665" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="1023" column="40" lean-forward="true" selection-start-line="1023" selection-start-column="40" selection-end-line="1023" selection-end-column="40" />
+            <state relative-caret-position="479">
+              <caret line="507" column="117" lean-forward="false" selection-start-line="507" selection-start-column="117" selection-end-line="507" selection-end-column="117" />
               <folding />
             </state>
           </provider>
@@ -98,7 +97,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>green.c</find>
       <find>benif</find>
       <find>benefits</find>
       <find>f.png</find>
@@ -128,6 +126,7 @@
       <find>get in touch</find>
       <find>meet our team</find>
       <find>get in tou</find>
+      <find>.pdf</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/images</dir>
@@ -399,12 +398,12 @@
       <workItem from="1533375738186" duration="2768000" />
       <workItem from="1533652177385" duration="907000" />
       <workItem from="1533664651282" duration="1612000" />
-      <workItem from="1533666632098" duration="186000" />
+      <workItem from="1533666632098" duration="424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25656000" />
+    <option name="totallyTimeSpent" value="25894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1919" y="-3" width="1922" height="1048" extended-state="6" />
@@ -684,8 +683,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="1023" column="40" lean-forward="true" selection-start-line="1023" selection-start-column="40" selection-end-line="1023" selection-end-column="40" />
+        <state relative-caret-position="479">
+          <caret line="507" column="117" lean-forward="false" selection-start-line="507" selection-start-column="117" selection-end-line="507" selection-end-column="117" />
           <folding />
         </state>
       </provider>
