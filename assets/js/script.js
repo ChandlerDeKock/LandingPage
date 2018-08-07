@@ -257,7 +257,7 @@
 		$content_popup.magnificPopup({
 			type: 'inline',
 			preloader: true,
-			removalDelay: 400,
+			removalDelay: 600,
 			mainClass: 'mfp-fade bg-team-exp'
 		});
 	}
@@ -406,7 +406,7 @@
 	var $preload = $('#preloader'), $loader = $('#loader');
 	if ($preload.length > 0) {
 		$win.on('load', function() {
-			$loader.fadeOut(300);
+			$loader.fadeOut(900);
 			$body_m.addClass("loaded");
 			$preload.delay(700).fadeOut(300);
 		});
