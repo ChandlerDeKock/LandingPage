@@ -1154,29 +1154,31 @@
 
             </div>
             <!-- .col -->
-            <div class="col-lg-6 col-md-7 offset-md-0 res-m-bttm">
-                <div class="gaps size-3x d-none d-md-block"></div>
-                <div class="gaps size-2x"></div>
-                <form id="contact-form" class="form-message form-message-s2 text-left" action="form/contact.php"
-                      method="post">
-                    <div class="form-results"></div>
-                    <div class="input-field animated" data-animate="fadeInUp" data-delay=".7">
-                        <input name="contact-name" type="text" placeholder="Your Name" class="input-border required">
-                    </div>
-                    <div class="input-field animated" data-animate="fadeInUp" data-delay=".8">
-                        <input name="contact-email" type="email" placeholder="Your Email"
-                               class="input-border required email">
-                    </div>
-                    <div class="input-field animated" data-animate="fadeInUp" data-delay=".9">
-                        <textarea name="contact-message" placeholder="Your Message"
-                                  class="txtarea input-border required"></textarea>
-                    </div>
-                    <input type="text" class="d-none" name="form-anti-honeypot" value="">
-                    <div class="input-field animated" data-animate="fadeInUp" data-delay="1.0">
-                        <button type="submit" class="btn">Submit</button>
-                    </div>
-                </form>
+        <div class="col-md-6 col-md-offset-3">
+            <h2>Contact Us</h2> Got a question ? Feedback? Awesome!
+            <p> Send your message in the form below and we will get back to you as early as possible. </p>
+            <form role="form" method="post" id="reused_form">
+                <div class="form-group">
+                    <label for="name"> Name:</label>
+                    <input type="text" class="form-control" id="name" name="name" required maxlength="50">
+                </div>
+                <div class="form-group">
+                    <label for="email"> Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required maxlength="50">
+                </div>
+                <div class="form-group">
+                    <label for="name"> Message:</label>
+                    <textarea class="form-control" type="textarea" name="message" id="message" placeholder="Your Message Here" maxlength="6000"
+                        rows="7"></textarea>
+                </div>
+                <button type="submit" class="btn btn-lg btn-success pull-right" id="btnContactUs">Post It! &rarr;</button>
+            </form>
+            <div id="success_message" style="width:100%; height:100%; display:none; ">
+                <h3>Sent your message successfully!</h3>
             </div>
+            <div id="error_message" style="width:100%; height:100%; display:none; ">
+                <h3>Error</h3> Sorry there was an error sending your form. </div>
+        </div>
         </div>
     </div>
 </div>
@@ -1222,6 +1224,7 @@
 <!-- JavaScript (include all script here) -->
 <script src="assets/js/jquery.bundle.js?ver=132"></script>
 <script src="assets/js/script.js?ver=132"></script>
+<script src="form.js"></script>
 </body>
 
 </html>
