@@ -2922,7 +2922,7 @@ select:focus { outline: none; border: none; }
 .io-lobelia .user-page:before { position: absolute; left: 0; top: 0; height: 100%; width: 100%; content: ''; background-image: linear-gradient(-125deg, #020847 0%, transparent 100%); }
 .user-page-box { background: #14163e; padding: 60px; border-radius: 4px; position: relative; }
 .theme-light .user-page-box { background: #fff; }
-.user-page-box:after { position: absolute; left: 0; top: 0; height: 5px; width: 100%; content: ''; background: repeating-linear-gradient(90deg, #00bffa 0%, #00bffa 33.34%, #1b57fe 33.35%, #1b57fe 66.68%, #8255fd 66.69%, #8255fd 100%); background-size: 50.5%; overflow: hidden; border-top-left-radius: 4px; border-top-right-radius: 4px; }
+.user-page-box:after { position: absolute; left: 0; top: 0; height: 5px; width: 100%; content: ''; background: repeating-linear-gradient(90deg, #A8D97A 0%, #A8D97A 33.34%, #6CBF22 33.35%, #6CBF22 66.68%, #366012 66.69%, #366012 100%); background-size: 50.5%; overflow: hidden; border-top-left-radius: 4px; border-top-right-radius: 4px; }
 .user-page-box h5 { text-transform: uppercase; margin-bottom: 33px; }
 .user-pro-box { background: #fff; border-radius: 6px; overflow: hidden; transition: all .4s; }
 .user-pro-box-s2 { background: #1808b4; padding: 26px 56px 26px 30px; box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.04); }
