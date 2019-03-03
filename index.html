@@ -14,6 +14,7 @@
 
     gtag('config', 'UA-135451715-1');
 </script>
+
     <meta charset="utf-8">
     <meta name="author" content="Registree">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -24,6 +25,26 @@
     <link rel="stylesheet" href="assets/css/style.css?ver=132">
     <link rel="stylesheet" href="assets/css/theme-green.css?ver=132">
     <link rel="stylesheet" href="assets/css/videoModal.css">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function () {
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#efefef",
+                    "text": "#404040"
+                },
+                "button": {
+                    "background": "#8ec760",
+                    "text": "#ffffff"
+                }
+            },
+            "theme": "edgeless",
+            "position": "bottom-right"
+        })
+    });
+</script>
 </head>
 
 <body class="theme-light io-jasmine" data-spy="scroll" data-target="#mainnav" data-offset="80">
