@@ -58,7 +58,7 @@
     <md:EmailAddress>mailto:technical@registree.rocks</md:EmailAddress>
   </md:ContactPerson>
   <md:ContactPerson contactType="support">
-    <md:GivenName>Customer Support</md:GivenName>
+    <md:GivenName>Help Desk</md:GivenName>
     <md:EmailAddress>mailto:support@registree.rocks</md:EmailAddress>
   </md:ContactPerson>
 </md:EntityDescriptor>
