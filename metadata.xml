@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:alg="urn:oasis:names:tc:SAML:metadata:algsupport" 
+  xmlns:ds="http://www.w3.org/2000/09/xmldsig#" 
+  xmlns:mdattr="urn:oasis:names:tc:SAML:metadata:attribute" 
+  xmlns:mdrpi="urn:oasis:names:tc:SAML:metadata:rpi" 
+  xmlns:mdui="urn:oasis:names:tc:SAML:metadata:ui" 
+  xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" 
+  xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://registree.rocks/metadata">
+  <md:SPSSODescriptor WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:Extensions>
+      <mdui:UIInfo>
+        <mdui:DisplayName xml:lang="en">Registree</mdui:DisplayName>
+        <mdui:Description xml:lang="en">Registree is a decentralized and cryptographically secured student database and platform that connects universities, students, and employers</mdui:Description>
+        <mdui:InformationURL xml:lang="en">https://registree.rocks/</mdui:InformationURL>
+        <mdui:PrivacyStatementURL xml:lang="en">https://registree.rocks/privacy</mdui:PrivacyStatementURL>
+        <mdui:Logo width="1928" height="1928">https://registree.rocks/images/SquareLogo_white.png</mdui:Logo>
+      </mdui:UIInfo>
+    </md:Extensions>
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDBzCCAe+gAwIBAgIJbJGxBq2liFEWMA0GCSqGSIb3DQEBCwUAMCExHzAdBgNVBAMTFnJlZ2lzdHJlZS5ldS5hdXRoMC5jb20wHhcNMTgwNzAzMTQyMzQ5WhcNMzIwMzExMTQyMzQ5WjAhMR8wHQYDVQQDExZyZWdpc3RyZWUuZXUuYXV0aDAuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAveFGoKYL9/aG7Ug+DSfLGfusrHptqEFz6hHlf/jxO0YaAfKuEBv4giHvAoRm0YeVwgyrsBjf9zP2mr+eiaqbR511ZEman8JQwmJ4IqUqtgVRUh20xaAxMYgdKfEMsKeGpAOiiP1EYtSqZgsJqvevnlQeMgvGyLiXbdnc3wXLctujrsw+uPw5Y+YUxbKcbpQh9BhXfBVPjcaIQGLusXaxbPODcBpUycEwATKpIi5cpEXNjXOAyRM1rrI0wKce+pXEjVBBtMuTNTwmrxWXa0Y4848UbXB6MOG/iXC/NKQuEuS50qofVgtPwDJNDGm4Tukh8zxTfSF1R7W/tFELbnS5JQIDAQABo0IwQDAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBS0X8FG8qn/tlh0sql9HE24EAAh0zAOBgNVHQ8BAf8EBAMCAoQwDQYJKoZIhvcNAQELBQADggEBAF6NQTUa1qS0UALW6t3MzkB7KF+ZJFWzSumADqhDuoLmuhWtFPYnT5inyNI9r+BsoVyiFHfk7qZ4oL8NiNRf9jA7VaQA6rWILyMEZZoeowix2JGvj6jcda/opwproMw2tEPjyk74rRqVA9oqnNHJGRJFZKZ39tb/vLf+WKiRpwySLT5hE+f8G2kCvEkHpAITN65L2vvGJZf2x3plQ6crtTf7E7LtzLG4QOAR+UGRjs43HBA/U9NSezK2xjzzjJjysv0lsDDj6DRmMfrRCKj8qT/r9LaHW2b3JiW76Cj6zFW8bLxUJp7mv3l5ArGuFM8OjaDsYGk6kY8iqKM1NrJjl5Q=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+
+
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDBzCCAe+gAwIBAgIJbJGxBq2liFEWMA0GCSqGSIb3DQEBCwUAMCExHzAdBgNVBAMTFnJlZ2lzdHJlZS5ldS5hdXRoMC5jb20wHhcNMTgwNzAzMTQyMzQ5WhcNMzIwMzExMTQyMzQ5WjAhMR8wHQYDVQQDExZyZWdpc3RyZWUuZXUuYXV0aDAuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAveFGoKYL9/aG7Ug+DSfLGfusrHptqEFz6hHlf/jxO0YaAfKuEBv4giHvAoRm0YeVwgyrsBjf9zP2mr+eiaqbR511ZEman8JQwmJ4IqUqtgVRUh20xaAxMYgdKfEMsKeGpAOiiP1EYtSqZgsJqvevnlQeMgvGyLiXbdnc3wXLctujrsw+uPw5Y+YUxbKcbpQh9BhXfBVPjcaIQGLusXaxbPODcBpUycEwATKpIi5cpEXNjXOAyRM1rrI0wKce+pXEjVBBtMuTNTwmrxWXa0Y4848UbXB6MOG/iXC/NKQuEuS50qofVgtPwDJNDGm4Tukh8zxTfSF1R7W/tFELbnS5JQIDAQABo0IwQDAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBS0X8FG8qn/tlh0sql9HE24EAAh0zAOBgNVHQ8BAf8EBAMCAoQwDQYJKoZIhvcNAQELBQADggEBAF6NQTUa1qS0UALW6t3MzkB7KF+ZJFWzSumADqhDuoLmuhWtFPYnT5inyNI9r+BsoVyiFHfk7qZ4oL8NiNRf9jA7VaQA6rWILyMEZZoeowix2JGvj6jcda/opwproMw2tEPjyk74rRqVA9oqnNHJGRJFZKZ39tb/vLf+WKiRpwySLT5hE+f8G2kCvEkHpAITN65L2vvGJZf2x3plQ6crtTf7E7LtzLG4QOAR+UGRjs43HBA/U9NSezK2xjzzjJjysv0lsDDj6DRmMfrRCKj8qT/r9LaHW2b3JiW76Cj6zFW8bLxUJp7mv3l5ArGuFM8OjaDsYGk6kY8iqKM1NrJjl5Q=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://registree.eu.auth0.com/logout"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://registree.eu.auth0.com/logout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</md:NameIDFormat>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://registree.eu.auth0.com/login/callback?connection=Safire" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="en">Registree</md:ServiceName>
+      <md:ServiceDescription xml:lang="en">Registree is a decentralized and cryptographically secured student database and platform that connects universities, students, and employers</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="eduPersonPrincipalName" Name="urn:oid:1.3.6.1.4.1.5923.1.1.1.6" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <md:RequestedAttribute FriendlyName="displayName" Name="urn:oid:2.16.840.1.113730.3.1.241" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+      <md:RequestedAttribute FriendlyName="mail" Name="urn:oid:0.9.2342.19200300.100.1.3" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+
+  <md:Organization xmlns="urn:oasis:names:tc:SAML:2.0:metadata">
+    <md:OrganizationName xml:lang="en">Reistree Rocks Pty Ltd</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Registree</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://registree.rocks</md:OrganizationURL>
+  </md:Organization>
+
+  <md:ContactPerson contactType="technical">
+    <md:GivenName>Technical Support</md:GivenName>
+    <md:EmailAddress>mailto:technical@registree.rocks</md:EmailAddress>
+  </md:ContactPerson>
+
+  <md:ContactPerson contactType="support">
+    <md:GivenName>Customer Support</md:GivenName>
+    <md:EmailAddress>mailto:support@registree.rocks</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
